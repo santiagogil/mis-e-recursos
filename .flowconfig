@@ -1,0 +1,9 @@
+[ignore]
+.*/node_modules/flow-bin/
+[include]
+*.js
+./node_modules/*
+[libs]
+
+[options]
+module.system=node

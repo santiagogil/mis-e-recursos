@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'checktype' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 verbose run-script [ 'prechecktype', 'checktype', 'postchecktype' ]
+6 info prechecktype mise-recursos@0.0.1
+7 info checktype mise-recursos@0.0.1
+8 verbose unsafe-perm in lifecycle true
+9 info mise-recursos@0.0.1 Failed to exec checktype script
+10 error mise-recursos@0.0.1 checktype: `flow check`
+10 error Exit status 2
+11 error Failed at the mise-recursos@0.0.1 checktype script.
+11 error This is most likely a problem with the mise-recursos package,
+11 error not with npm itself.
+11 error Tell the author that this fails on your system:
+11 error     flow check
+11 error You can get their info via:
+11 error     npm owner ls mise-recursos
+11 error There is likely additional logging output above.
+12 error System Linux 3.13.0-39-generic
+13 error command "/usr/bin/node" "/usr/bin/npm" "run" "checktype"
+14 error cwd /home/santiago/Code/PCIatTDF/Software/miserecursos
+15 error node -v v0.10.33
+16 error npm -v 1.4.28
+17 error code ELIFECYCLE
+18 verbose exit [ 1, true ]
